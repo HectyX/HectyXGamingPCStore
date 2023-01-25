@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us - HectyX Co.</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="./Footer.JS"></script>
+  <script src="./animations.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <ul>
+         <li><a href="#">Shop</a></li>
+           <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+         
+         
+          <li class="logo-container"><img src="HectyXlogo2.png" alt="HectyX Co. logo"></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <div class="contact-form">
+      <h1>Contact Us</h1>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:hectyx.business@gmail.com">hectyx.business@gmail.com</a></p>
+        <p>Phone: ‪(520) 261-7258‬</p>
+        <p>Address: 175 W Valencia Rd, Arizona, Tuscon</p>
+      </div>
+      <form action="submit-form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <input type="submit" value="Send">
+      </form>
+    </div>
+    </main>
+    <footer>
+      <p>Copyright ©2023 HectyX Co.</p>
+      </footer>
