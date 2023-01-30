@@ -175,6 +175,12 @@ form {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+     height:100%;
+    background-color: white;
+    padding: 60px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 80%;
 }
 
 label, input, textarea {
