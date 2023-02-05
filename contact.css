@@ -3,8 +3,7 @@ body {
     font-family: Arial, sans-serif;
   }
   body{
-    display: flex;
-       flex-wrap: wrap;
+    display: grid;
     min-height: 100vh;
     height: 100%;
   }
@@ -44,71 +43,9 @@ body {
  
   }
   
-  main {
-    flex: 1;
-    height:25%;
-    padding: 20px;
-      height: 100%;
-    margin: auto;
-  }
-  .text-box {
-    height:100%;
-    background-color: white;
-    padding: 60px;
-    text-align: center;
-    margin: 0 auto;
-    max-width: 80%;
-  }
-  
-  h1 {
-    color: rgb(0, 0, 0);
-  }
-  .text {
-    font-size: x-large;
-  }
-  .WWA {
-    height:25%;
-    padding: 20px;
-  }
-  .text-box2 {
-    height:100%;
-    background-color: rgb(165, 0, 0);
-    padding: 60px;
-    text-align: left;
-    margin: 0 auto;
-    max-width: 80%;
-  }
-  .header2 {
-    text-align: left;
-    color: rgb(255, 255, 255);
-  }
-  .text2 {
-    color: rgb(255, 255, 255);
-    font-size: x-large;
-  }
-  .WU {
-    height:25%;
-    padding: 20px;
-  }
-  .text-box3 {
-    height:100%;
-    background-color: #DF8B1E;
-    padding: 60px;
-    text-align: right;
-    margin: 0 auto;
-    max-width: 80%;
-  }
-  .text3 {
-    
-    font-size: x-large;
-  }
-  .header3 {
-    color: rgb(0, 0, 0);
-    text-align: right;
-  }
   footer {
-    position: flex;
-    bottom: 0;
+    position: grid;
+    flex-shrink: 0;
     width: 100%;
     background-color: #ffa500;
     text-align: center;
@@ -140,6 +77,8 @@ body {
   }
 /*Contact*/
 .contact-form {
+
+
   height:100%;
   background-color: #ffffff;
   padding: 60px;
