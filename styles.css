@@ -66,6 +66,9 @@ body {
   .text {
     font-size: x-large;
   }
+.logo-about {
+    align-items: right;
+}
   .WWA {
     height:25%;
     padding: 20px;
