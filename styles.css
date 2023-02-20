@@ -67,7 +67,8 @@ body {
     font-size: x-large;
   }
 .logo-about {
-    align-items: right;
+    display: block;
+    margin-left: auto;
 }
   .WWA {
     height:25%;
